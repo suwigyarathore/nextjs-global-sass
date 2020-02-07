@@ -5,6 +5,7 @@ import Layout from '../../components/Layout'
 import List from '../../components/List'
 import { User } from '../../interfaces'
 import { sampleFetchWrapper } from '../../utils/sample-api'
+import "./index.scss";
 
 type Props = {
   items: User[]
